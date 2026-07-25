@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUG - Know Your Genre</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="CSS/mainpage.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="navbar">
+    <a href="#" class="logo">MUG</a>
+    <nav class="nav-links">
+    </nav>
+  </header>
+
+  <main>
+    <!-- SECTION 1: LANDING PAGE -->
+    <section class="hero">
+      <div class="covers-container">
+        <div class="album-cover cover-1"><img src="IMG/Goodriddance.png" alt="Andy Warhol"></div>
+        <div class="album-cover cover-2"><img src="IMG/andywarhol.png" alt="Good Riddance"></div>
+        <div class="album-cover cover-3"><img src="IMG/cas.png" alt="Cigarettes After Sex"></div>
+        <div class="album-cover cover-4"><img src="IMG/oasis.png" alt="Oasis"></div>
+        <div class="album-cover cover-5"><img src="IMG/radiohead.png" alt="Radiohead"></div>
+        <div class="album-cover cover-6"><img src="IMG/malcomtodd.png" alt="Malcolm Todd"></div>
+        <div class="album-cover cover-7"><img src="IMG/brentfaiyaz.png" alt="Brent Faiyaz"></div>
+        <div class="album-cover cover-8"><img src="IMG/blonde.png" alt="Blonde"></div>
+        <div class="album-cover cover-9"><img src="IMG/tame impala.png" alt="Tame Impala"></div>
+        <div class="album-cover cover-10"><img src="IMG/noahkahan.png" alt="Noah Kahan"></div>
+        <div class="album-cover cover-11"><img src="IMG/kendricklamar.png" alt="Kendrick Lamar"></div>
+        <div class="album-cover cover-12"><img src="IMG/lorde.png" alt="Lorde"></div>
+      </div>
+
+      <div class="hero-content">
+        <span class="brand-tag">MUG</span>
+        <h1>
+          <span class="line">Know Your</span>
+          <span class="line">Genre</span>
+        </h1>
+        <div class="cta-buttons">
+          <a href="index.html#about-section" class="btn btn-primary">About</a>
+          <a href="index.html#genres-section" class="btn btn-secondary">Genre</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: MUSIC GENRES (PURE CSS) -->
+    <section id="genres-section" class="genres-section">
+      <h2 class="genres-title">MUSIC GENRES</h2>
+      
+      <div class="genres-container">
+        <!-- Hidden Radio Inputs for Pure CSS Interaction -->
+        <input type="radio" name="genre-select" id="genre-jazz" checked>
+        <input type="radio" name="genre-select" id="genre-classical">
+        <input type="radio" name="genre-select" id="genre-pop">
+        <input type="radio" name="genre-select" id="genre-hiphop">
+        <input type="radio" name="genre-select" id="genre-rock">
+        <input type="radio" name="genre-select" id="genre-indie">
+        <input type="radio" name="genre-select" id="genre-edm">
+        <input type="radio" name="genre-select" id="genre-rnb">
+
+        <!-- Accordion Cards -->
+        <div class="accordion-wrapper">
+          <label for="genre-jazz" class="genre-card card-jazz">
+            <img src="IMG/jaazz.png" alt="Jazz">
+            <span class="genre-label">JAZZ</span>
+          </label>
+
+          <label for="genre-classical" class="genre-card card-classical">
+            <img src="IMG/classical.png" alt="Classical">
+            <span class="genre-label">CLASSICAL</span>
+          </label>
+
+          <label for="genre-pop" class="genre-card card-pop">
+            <img src="IMG/pop.png" alt="Pop">
+            <span class="genre-label">POP</span>
+          </label>
+
+          <label for="genre-hiphop" class="genre-card card-hiphop">
+            <img src="IMG/hiphop.png" alt="Hip Hop">
+            <span class="genre-label">HIP HOP</span>
+          </label>
+
+          <label for="genre-rock" class="genre-card card-rock">
+            <img src="IMG/rock.png" alt="Rock">
+            <span class="genre-label">ROCK</span>
+          </label>
+
+          <label for="genre-indie" class="genre-card card-indie">
+            <img src="IMG/indie.png" alt="Indie">
+            <span class="genre-label">INDIE</span>
+          </label>
+
+          <label for="genre-edm" class="genre-card card-edm">
+            <img src="IMG/edm.png" alt="EDM">
+            <span class="genre-label">EDM</span>
+          </label>
+
+          <label for="genre-rnb" class="genre-card card-rnb">
+            <img src="IMG/r&b.png" alt="R&B">
+            <span class="genre-label">R&B</span>
+          </label>
+        </div>
+
+        <!-- Dynamic Content Swapping (Right Side) -->
+        <div class="genre-info">
+          
+          <div class="info-content info-jazz">
+            <h3>JAZZ</h3>
+            <p>Jazz is a music genre that originated in the United States, characterized by improvisation, swing rhythms, syncopation, and complex harmonies. It developed primarily within African American communities and draws strong influence from blues, ragtime, and spiritual music traditions.</p>
+            <a href="jazz.html" class="btn-explore">EXPLORE</a>
+          </div>
+
+          <div class="info-content info-classical">
+            <h3>CLASSICAL</h3>
+            <p>Classical music is rooted in Western art and culture, encompassing a vast history from the Medieval period to modern times. Known for its sophisticated compositions, orchestration, and structural rigor, classical music emphasizes rich acoustic instrumentation.</p>
+            <a href="classical.html" class="btn-explore">EXPLORE</a>
+          </div>
+
+          <div class="info-content info-pop">
+            <h3>POP</h3>
+            <p>Pop music focuses on catchiness, melodic hooks, and accessible song structures. Evolving continuously with production trends, it blends elements of dance, electronic, and vocal harmonies to produce chart-topping anthems.</p>
+            <a href="pop.html" class="btn-explore">EXPLORE</a>
+          </div>
+
+          <div class="info-content info-hiphop">
+            <h3>HIP HOP</h3>
+            <p>Hip hop emerged as a cultural movement driven by rhythmic beats, rhyming vocals (rapping), DJing, and sampling. Characterized by poetic storytelling and bass-heavy production, it reflects personal, social, and political expressions.</p>
+            <a href="hiphop.html" class="btn-explore">EXPLORE</a>
+          </div>
+
+          <div class="info-content info-rock">
+            <h3>ROCK</h3>
+            <p>Rock music centered around the electric guitar, bass, and drums. Emerging in the 1950s, it spans subgenres from energetic indie and alternative rock to heavy metal, defined by expressive riffs and driving rhythms.</p>
+            <a href="rock.html" class="btn-explore">EXPLORE</a>
+          </div>
+
+          <div class="info-content info-indie">
+            <h3>INDIE</h3>
+            <p>Indie music represents independent, DIY music creation characterized by authentic storytelling, unique instrumental textures, and atmospheric soundscapes, free from traditional commercial constraints.</p>
+            <a href="indie.html" class="btn-explore">EXPLORE</a>
+          </div>
+
+          <div class="info-content info-edm">
+            <h3>EDM</h3>
+            <p>Electronic Dance Music (EDM) is crafted primarily for nightclubs, festivals, and raves. Built on synthesized melodies, rhythmic drops, and energetic basslines, EDM drives modern electronic production worldwide.</p>
+            <a href="edm.html" class="btn-explore">EXPLORE</a>
+          </div>
+
+          <div class="info-content info-rnb">
+            <h3>R&B</h3>
+            <p>Rhythm and Blues (R&B) combines soulful vocal arrangements, smooth melodies, and groove-driven beats. Evolving from blues and gospel roots, modern R&B incorporates pop, electronic, and hip-hop influences.</p>
+            <a href="rnb.html" class="btn-explore">EXPLORE</a>
+          </div>
+			
+
+        </div>
+      </div>
+    </section>
+	
+	  
+	<!-- SECTION 3: ABOUT -->
+    <section id="about-section" class="about-section">
+      
+      <div class="about-container">
+        <!-- Left Side: Text Box -->
+        <div class="about-info">
+          <div class="about-info-content">
+            <h3>MUG - KNOW YOUR GENRE</h3>
+            <p>MuG is an immersive platform built to explore and celebrate the diverse world of music genres. Inspired by the encyclopedic depth of Wikipedia, MuG transforms knowledge into a curated journey where history, culture, and sound converge.</p>
+			  <p>Our mission is to deepen musical appreciation by making discovery engaging and accessible. With interactive timelines, genre hubs, and audio snapshots, MuG is more than a reference — it’s a living archive designed to expand your sonic horizons and inspire a deeper connection to the music.</p>
+          </div>
+        </div>
+
+        <!-- Right Side: Visual Card Box -->
+        <div class="about-card-wrapper">
+          <div class="about-visual-card">
+          </div>
+        </div>
+      </div>
+    </section>
+	  
+	  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>&copy; 2026 MUG. All rights reserved.</p>
+  </footer>
+	  
+	  <script>
+    const radioInputs = document.querySelectorAll('input[name="genre-select"]');
+    const allAudios = document.querySelectorAll('audio[id^="audio-"]');
+
+    radioInputs.forEach(input => {
+      input.addEventListener('change', () => {
+        // Stop and reset all audio tracks
+        allAudios.forEach(audio => {
+          audio.pause();
+          audio.currentTime = 0;
+        });
+
+        // Find and play the audio matching the selected genre ID
+        const genreId = input.id.replace('genre-', '');
+        const targetAudio = document.getElementById(`audio-${genreId}`);
+        if (targetAudio) {
+          targetAudio.play().catch(error => {
+            console.log("Autoplay prevented or file missing:", error);
+          });
+        }
+      });
+    });
+  </script>
+	  
+  </main>
+
+</body>
+</html>
